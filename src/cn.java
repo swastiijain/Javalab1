@@ -37,7 +37,7 @@ public class cn {
                 System.out.println("You are eligible to vote");
             else
                 a = 18 - age;
-                System.out.print("Sorry you are not eligible to vote,come back after "+a);
+                System.out.print("Sorry you are not eligible to vote,come back after years "+a);
                 System.out.println(" years");
 
 
