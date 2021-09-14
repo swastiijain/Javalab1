@@ -29,11 +29,11 @@ public class bikers {
 //Java program to take as input the speed of each racer
 //and print back the speed of qualifying racers
             double s1,s2,s3,s4,s5,avg;
-            s1 = 24;
-            s2 = 34;
-            s3 = 45;
-            s4 = 30;
-            s5 = 39;
+            s1 = 20;
+            s2 = 20;
+            s3 = 20;
+            s4 = 20;
+            s5 = 20;
             avg = (s1+s2+s3+s4+s5)/5 ;
             if(s1>avg)
                 System.out.println("The winner is"+s1);
@@ -45,11 +45,21 @@ public class bikers {
                 System.out.println("The winner is"+s4);
             if(s5>avg)
                 System.out.println("The winner is"+s5);
+            else
+                System.out.println("No one is qualified");
 
+//ATM
+            double a=0.5,w=0.5,n=2000-0.5-w;
+            if(w%5==0 && n>0){
 
-
-
-
-    }
+                System.out.println("amount is "+a);
+                System.out.println("Withdrawl is "+w);
+                System.out.println(("Amount after withdrawl is "+n));
+            }
+            else {
+                System.out.println("amount is "+a);
+                System.out.println("withdrawl is 0");
+            }
+   }
 
 }
